@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- font awesome -->
+    <script src="./js/all.js"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+
+
+    <title>Complete Bootstrap 4 Web Layout</title>
+</head>
+<body>
+    
+<!-- header -->
+
+
+<header class="bg-dark header fixed vw-100 sticky-top">
+    <nav>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center m-auto p-auto">
+                <div class="col-4">
+                    <img src="./img/logo.png" alt="logo" class="bg-white m-3 w-100">
+                </div>
+                <div class="col">
+                    <a href="#" class="text-white">Home</a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-white">Armory</a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-white">Pricing</a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-white">Vulcan Honors</a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-white">Blog</a>
+                </div>
+                <div class="col">
+                    <button class="btn border-color w-100 rounded-pill text-white m-auto">Login</button>
+                </div>
+                <div class="col">
+                    <button class="btn border-color w-100 rounded-pill text-white m-auto">Apply</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- end of header -->
+
+<!-- carousel -->
+
+<section id="carousel" class="">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col">
+                <div id="slide" class="carousel slide" data-ride="carousel">
+                    <!-- indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#slide" data-slide-to="0" class="active"></li>
+                        <li data-target="#slide" data-slide-to="1"></li>
+                        <li data-target="#slide" data-slide-to="2"></li>
+                    </ul>
+                    <!-- end of indicators-->
+
+                    <!-- inner -->
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item bg-slide active">
+                            <img src="./img/background.png" alt="background1" class="bg-slide">
+                            <div class="carousel-caption text-white">
+                                <h3 class="text-capitalize">unprecedented access to the most advanced firearm optics</h3>
+                                <p class="text-capitalize">welcome to the tircle: scroll to learn more</p>
+                                <a href="#" class="btn bg-color rounded-pill text-capitalize text-white px-5 py-3 mb-5"><small>explore</small></a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item bg-slide">
+                            <img src="./img/background2.png" alt="background2" class="bg-slide">
+                            <div class="carousel-caption text-white">
+                                <h3 class="text-capitalize">A Firearm Accessories Experience Like None Other</h3>
+                                <p class="text-capitalize">Memberships Starting At $45/mo.</p>
+                                <a href="#" class="btn bg-color rounded-pill text-capitalize text-white px-5 py-3 mb-5"><small>apply</small></a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item bg-slide">
+                            <img src="./img/background3.png" alt="background3" class="bg-slide">
+                            <div class="carousel-caption text-white">
+                                <h3 class="text-capitalize">Loyalty Is The Name Of The Game</h3>
+                                <p class="text-capitalize">And We Want To Reward You For It</p>
+                                <a href="#" class="btn bg-color rounded-pill text-uppercase text-white py-3 mb-5"><small>vulcan honors</small></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- end of inner -->
+
+                    <!-- controls -->
+
+                    <a href="#slide" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a href="#slide" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                    <!-- end of controls -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- first section -->
+
+
+<section class="section1 bg-muted">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 my-4">
+
+                <h3 class="text-uppercase"><strong>who we are</strong></h3>
+                <p class="text-muted my-4"><strong>Vulcan Circle is a subscription membership providing firearm optics through two unique services.</strong></p>
+                <p class="text-muted my-4"><strong>Our "rent to rotate" service provides members access to three different armory types in which members select optics on a three-month rotation, allowing them to experience different optics before purchasing.</strong></p>
+                <p class="text-muted my-4"><strong>Likewise, under our "rent to purchase" option, members can purchase a single optic to be paid off over an 8 or 12 month period.</strong></p>
+                <p class="text-muted my-4"><strong>Both services are granted access to extraordinary incentives like our rewards program, Vulcan Honors. It's our goal to provide members unmatched opportunity in how they experience firearm accessories. If that sounds like something you want to be apart of, join The Circle today!</strong></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- end of 1st section -->
+
+<!-- form -->
+
+<div class="py-5">
+<form action="" method="post" class="text-center" class="">
+
+    <h3 class="text-uppercase font-weight-bold pt-5">subscribe to our newsletter</h3>
+
+    <input type="email" name="email" placeholder="Your Email" class="rounded widthbtn border border-color p-3 m-1 mt-4"> <br>
+    <input type="text" name="first name" placeholder="First Name" class="rounded widthbtn border border-color p-3">
+    <br><br>
+    <a href="#"><button class="btn widthbtn text-capitalize bg-color rounded-pill text-white heightbtn">subscribe</button></a>
+
+
+</form>
+</div>
+
+<!-- end of form -->
+
+<!-- 3 steps section -->
+
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <h1>1</h1>
+                    <img src="./img/step1.png" alt="Step 1" class="card-img">
+                    <h4 class="stepstag text-uppercase text-center">first step</h4>
+                    <div class="card-img-overlay">
+                        <p class="hovertext">Click the “apply” button and complete the quick and simple application process.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <h1>2</h1>
+                    <img src="./img/step2.png" alt="Step 1" class="card-img">
+                    <h4 class="stepstag text-uppercase text-center">second step</h4>
+                    <div class="card-img-overlay">
+                        <p class="hovertext">Once your application is complete, select the optic you want foreither your first rotation or to be paid off over a set amount of time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <h1>3</h1>
+                    <img src="./img/step3.png" alt="Step 1" class="card-img">
+                    <h4 class="stepstag text-uppercase text-center">third step</h4>
+                    <div class="card-img-overlay">
+                        <p class="hovertext">Our team will notify you of your membership, then ship your selected optic direct to your doorstep.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- apply btn -->
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col text-center">
+                <a href="#" class="btn bg-color text-capitalize rounded-pill text-white p-3" style="width:200px"><small>apply now</small></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- slika ova -->
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col text-center">
+                <a href="#"><img src="./img/sec2mous.png" alt="mous"></a>
+            </div>
+        </div>
+    </div>
+<!-- 2nd section -->
+
+<section class="mt-5 w-75 section2">
+
+    <h3 class="text-uppercase"><strong>vulcan honors</strong></h3>
+    <p class="text-muted pt-2 text-uppercase">our rewards program</p>
+
+    <div class="text-muted pt-5">
+        <p>Vulcan Honors is the Circle’s rewards program. Members accumulate points monthly which they can use to purchase optics, accessories, partner products and more found on the "eVulcan Honors" page. Additionally, members are supplemented with a point bonus when optics are returned in good condition.</p>
+    </div>
+
+    <div class="d-flex justify-content-end mt-5">
+        <button class="btn text-uppercase text-white bg-color rounded-pill w-25 py-2 self-align-end">become a member</button>
+    </div>
+
+</section>
+
+<!-- end of 2nd section -->
+
+<!-- images -->
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <img src="./img/imghonors.jpg" alt="honors" class="py-5 imghonors">
+            </div>
+        </div>
+    </div>
+
+<!-- end of images -->
+
+
+<!-- armory title -->
+
+<div class="container pb-5">
+    <div class="row">
+        <div class="col">
+            <h1 class=" text-uppercase pt-5"><strong>armory</strong></h1>
+            <p class="text-uppercase font-weight-bold">three armory types to meet your needs.</p>
+        </div>
+    </div>
+</div>
+
+<!-- end of title -->
+
+<!-- armory section -->
+
+<section>
+    <div class="container pt-5">
+        <div class="row">
+
+            <div class="col">
+                <img src="./img/armory1.png" alt="armory1">
+                <h1 class="text-capitalize pt-2 font-weight-bold"><strong>legionary</strong></h1>
+                <p class="font-weight-light pt-2">The Legionary is the Circle’s entry-level armory. Borrowing the name from the Latin term, legionarius, a legionary was a Roman infantryman, responsible for fighting on the forefront of battle. The Legionary Armory gives you access to optics like the Aimpoint T2, the Trijicon ACOG and more.</p>
+            </div>
+
+            <div class="col">
+                <img src="./img/armory2.png" alt="armory2">
+                <h1 class="text-capitalize pt-2 font-weight-bold"><strong>centurion</strong></h1>
+                <p class="font-weight-light pt-2">The Centurion Armory stands as the second tier in our lineup. The armory’s namesake comes from the Centurion soldier, a Roman military officer responsible for the well-being and combat effectiveness of the legionaries. This armory provides members access to optics such as the Elcan Specter, any optic within the Legionary Armory and more.</p>
+            </div>
+
+            <div class="col">
+                <img src="./img/armory3.png" alt="armory3">
+                <h1 class="text-capitalize pt-2 font-weight-bold"><strong>tribune</strong></h1>
+                <p class="font-weight-light pt-2">Tribune, or in Latin, Tribunus, was the officer title given to the second-in-command of a Roman legion. Additionally, the rank was often bestowed to those in line for a seat in Rome’s Senate; a highly-esteemed position in the Roman Empire. The Tribune Armory is Vulcan Circle’s premier membership program, providing members access to optics from Tangent Theta, U.S. Optics’ B25 series, any optic in the preceding armory types, and more.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- end of armory section -->
+
+<!-- title -->
+
+<div class="container pt-5 my-5">
+    <div class="row">
+        <div class="col">
+            <h3 class="text-uppercase text-center font-weight-bold">newly added optics</h3>
+        </div>
+    </div>
+</div>
+
+<!-- end of title -->
+
+<!-- optika section -->
+
+<div class="container mb-5">
+    <div class="row">
+
+        <div class="col">
+            <img src="./img/optika1.jpg" alt="optika1" class="mt-5">
+            <h5 class="font-weight-bold text-center">Nightforce ATACR 5-25x56 F1 ZeroStop .250 MOA Digillum MOAR</h5>
+            <div class="d-flex justify-content-center">
+                <a href="#"><button class="btn bg-color text-white text-uppercase rounded-pill btndetails p-2 text-decoration-underline"><small>details</small></button></a>
+            </div>
+            <div class="d-flex justify-content-center">
+            <a href="#"><button class="bg-dark text-white text-uppercase btnbook mt-2"><small>book this optic</small></button></a>
+            </div>
+        </div>
+
+        <div class="col">
+
+            <img src="./img/optika2.jpg" alt="optika2" class="mt-5">
+            <h5 class="font-weight-bold text-center">Trijicon 5.5x50 ACOG</h5>
+            <div class="d-flex justify-content-center">
+                <a href="#"><button class="btn bg-color text-white text-uppercase rounded-pill btndetails p-2 text-decoration-underline"><small>details</small></button></a>
+            </div>
+            <div class="d-flex justify-content-center">
+            <a href="#"><button class="bg-dark text-white text-uppercase btnbook mt-2"><small>book this optic</small></button></a>
+            </div>
+
+        </div>
+
+        <div class="col">
+
+            <img src="./img/optika3.png" alt="optika3" class="mt-5">
+            <h5 class="font-weight-bold text-center">Kahles 6-24x56 K624i</h5>
+            <div class="d-flex justify-content-center">
+                <a href="#"><button class="btn bg-color text-white text-uppercase rounded-pill btndetails p-2 text-decoration-underline"><small>details</small></button></a>
+            </div>
+            <div class="d-flex justify-content-center">
+            <a href="#"><button class="bg-dark text-white text-uppercase btnbook mt-2"><small>book this optic</small></button></a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- end of optika section -->
+
+
+<!-- become a member title -->
+
+
+<div class="container pt-5 membertitle">
+    <div class="row">
+        <div class="col text-uppercase">
+            <h4 class="pl-5"><strong>become a member</strong></h4>
+            <p class="pl-4 text-capitalize font-weight-light">fill in the fields below to join the circle</p>
+        </div>
+    </div>
+</div>
+
+<!-- end of title -->
+
+<!-- become a member section -->
+
+
+<div class="container my-5">
+    <div class="row d-inline-block">
+
+        <div class="col">
+            <form>
+                <input type="text" name="first name" placeholder="First Name" class="my-1 rounded border border-color pl-4 py-3 memberform">
+            </form>
+        </div>
+
+        <div class="col">
+            <form>
+                    <input type="text" name="last name" placeholder="Last Name" class="my-1 rounded border border-color pl-4 py-3 memberform">
+            </form>
+        </div>
+
+        <div class="col">
+            <form>
+                <input type="email" name="email" placeholder="Your Email" class="my-1 rounded border border-color pl-4 py-3 memberform">
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<!-- end of section -->
+
+<!-- apply button -->
+
+<div class="container">
+    <div class="row">
+        <div class="col"><button class="bg-color text-capitalize rounded-pill applybtn text-white"><small>apply</small></button></div>
+    </div>
+</div>
+
+<!-- end of btn -->
+
+
+<footer class="bg-dark footer">
+    <div class="container-fluid">
+        <div class="row mx-auto pt-2">
+
+            <div class="col-8 d-flex justify-content-around pt-4">
+                <a href="#" class="text-white text-uppercase"><small>about us</small></a>
+                <a href="#" class="text-white text-uppercase"><small>contact us</small></a>
+                <a href="#" class="text-white text-uppercase"><small>faq</small></a>
+                <a href="#" class="text-white text-uppercase"><small>terms of service</small></a>
+                <a href="#" class="text-white text-uppercase"><small>blog</small></a>
+            </div>
+
+            <div class="col-4 d-flex justify-content-around pt-1">
+                <a href="#"><i class="fab fa-instagram fa-2x text-white mt-3 ml-3"></i></a>
+                <a href="#"><i class="fab fa-facebook-f fa-2x text-white bg-dark border border-dark mt-3 mr-4"></i></a>
+            </div>
+            <!--
+            <div class="col-2 d-flex justify-content-end align-items-end">
+                <a href="#" class="text-white text-uppercase"><small>about us</small></a>
+            </div>
+            <div class="col-1 d-flex justify-content-end align-items-end">
+                <a href="#" class="text-white text-uppercase"><small>contact us</small></a>
+            </div>
+            <div class="col-1 d-flex justify-content-end align-items-end">
+                <a href="#" class="text-white text-uppercase"><small>faq</small></a>
+            </div>
+            <div class="col-2 d-flex justify-content-center align-items-end">
+                <a href="#" class="text-white text-uppercase"><small>terms of service</small></a>
+            </div>
+            <div class="col-1 d-flex justify-content-end align-items-end">
+                <a href="#" class="text-white text-uppercase"><small>blog</small></a>
+            </div>
+            <div class="col-3 d-flex justify-content-end">
+                <a href="#"><i class="fab fa-facebook-f fa-2x text-white bg-dark border border-dark mt-3 mr-4"></i></a>
+            </div>
+            <div class="col-2">
+                <a href="#"><i class="fab fa-instagram fa-2x text-white mt-3 ml-3"></i></a>
+            </div>
+            -->
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+     
+    <!-- jquery -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
